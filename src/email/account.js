@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 
 // create reusable transporter object using the default SMTP transport
-let transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
     host: "smtp.mailtrap.io",
     port: 2525,
     //secure: false, // true for 465, false for other ports
